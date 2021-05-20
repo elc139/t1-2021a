@@ -9,7 +9,12 @@ T1: TOP500 & me - Comparativo de Arquiteturas Paralelas
 - Para preencher a tabela, você vai ter que fazer o seguinte:
   - Buscar informações de fabricantes, tanto para o computador do TOP500 como para seu computador.
   - Executar um benchmark **Linpack** no seu computador, para preencher o item sobre Desempenho (Flop/s) na tabela comparativa.
-- Existem várias distribuições e versões do Linpack, mas para padronizar nossos resultados, vamos utilizar o HPL (High Performance Linpack) versão 2.3, que está disponível em https://www.netlib.org/benchmark/hpl/. Esse benchmark possui algumas dependências que você vai ter que instalar manualmente: MPI e BLAS (recomendável usar OpenMPI instalado manualmente em espaço de usuário, não via instalador do sistema, e BLAS do Intel MKL). Os casos executados no benchmark são configurados em um arquivo HPL.dat, que é fornecido como exemplo junto com o código fonte. O arquivo que usaremos neste trabalho tem configurações diferentes e será disponibilizado no Discord posteriormente.
+
+## Sobre o Linpack
+
+- Existem várias distribuições e versões do Linpack, mas para padronizar nossos resultados, vamos utilizar o HPL (High Performance Linpack) versão 2.3, que está disponível em https://www.netlib.org/benchmark/hpl/. 
+- Esse benchmark possui algumas dependências que você vai ter que instalar manualmente: MPI e BLAS (recomendável usar OpenMPI instalado manualmente em espaço de usuário, não via instalador do sistema, e BLAS do Intel MKL). 
+- Os casos executados no benchmark são configurados em um arquivo HPL.dat, que é fornecido como exemplo junto com o código fonte. O arquivo que usaremos neste trabalho tem configurações diferentes e será disponibilizado no Discord posteriormente.
 
 
 ## Entrega
