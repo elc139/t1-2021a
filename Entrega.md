@@ -1,9 +1,9 @@
 TOP500 & me: Comparativo de Arquiteturas Paralelas
 --------------------------------------------------
 
-Nome: < preencha seu nome aqui >
-Disciplina: ELC139 - Programação Paralela - UFSM - 2021a
-URL: http://github.com/andreainfufsm/elc139-2021a
+Nome: < preencha seu nome aqui >  
+Disciplina: ELC139 - Programação Paralela - UFSM - 2021a  
+URL: http://github.com/andreainfufsm/elc139-2021a  
 
 | Característica                                            | Computador no TOP500  | Meu computador  |
 | --------------------------------------------------------- | --------------------- | --------------- |
