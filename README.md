@@ -18,6 +18,7 @@ T1: TOP500 & me - Comparativo de Arquiteturas Paralelas
 - Os parâmetros de entrada do benchmark são configurados em um arquivo `HPL.dat`, que é fornecido como exemplo junto com o código fonte. O arquivo que usaremos neste trabalho tem configurações diferentes e está disponível [aqui](HPL.dat).
 - Tanto o `xhpl` como o `HPL.dat` devem estar na mesma pasta. O comando para executar os casos de teste para este trabalho é o mesmo contido no arquivo `INSTALL`. Basta substituir o `HPL.dat` original pelo [HPL.dat](HPL.dat) fornecido.
 - O HPL testa vários casos conforme os parâmetros de entrada e reporta, para cada caso, o desempenho em Gflops (notação científica). Você deve localizar o maior valor obtido entre todos os casos testados. Esse é o resultado que você preencherá no arquivo de entrega.
+- **Observação:** Quando se faz benchmarking real com o HPL, o ideal é fazer *tunning*  ajustando diversos parâmetros do arquivo de configuração `HPL.dat`. Isso requer um conhecimento mais aprofundado do benchmark, por isso não será exigido neste trabalho, mas quem quiser saber mais pode procurar isso na documentação :wink:. Se você ajustar o `HPL.dat` e obtiver melhor desempenho, informe isso no arquivo de entrega.
 
 ## Entrega
 - Você deverá entregar o trabalho no repositório criado após aceite do link no GitHub Classroom.
