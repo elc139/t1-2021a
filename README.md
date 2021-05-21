@@ -19,7 +19,7 @@ T1: TOP500 & me - Comparativo de Arquiteturas Paralelas
 
 ## Entrega
 - Você deverá entregar o trabalho no repositório criado após aceite do link no GitHub Classroom.
-- Deadline: até segunda, 24/05, 23h.
+- Deadline: até quarta, 26/05, 23h.
 
 ## Bibliografia
 - [Taxonomia de Flynn](https://en.wikipedia.org/wiki/Flynn%27s_taxonomy)
