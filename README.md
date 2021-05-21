@@ -13,9 +13,11 @@ T1: TOP500 & me - Comparativo de Arquiteturas Paralelas
 ## Sobre o Linpack
 
 - Existem várias distribuições e versões do Linpack, mas para padronizar nossos resultados, vamos utilizar o HPL (High Performance Linpack) versão 2.3, que está disponível em https://www.netlib.org/benchmark/hpl/. 
-- Esse benchmark possui algumas dependências que você vai ter que instalar manualmente: MPI e BLAS (recomendável usar OpenMPI instalado manualmente em espaço de usuário, não via instalador do sistema, e BLAS do Intel MKL). 
-- Os casos executados no benchmark são configurados em um arquivo HPL.dat, que é fornecido como exemplo junto com o código fonte. O arquivo que usaremos neste trabalho tem configurações diferentes e será disponibilizado no Discord posteriormente.
-
+- Conforme consta na página de download, esse benchmark possui algumas dependências que você vai ter que instalar manualmente: MPI e BLAS. É recomendável usar OpenMPI compilado e instalado manualmente em espaço de usuário (usar `configure --prefix=...`), não via instalador do sistema. Quanto ao BLAS, uma opção é usar o pacote intel-mkl.
+- Após instalar as dependências, siga as instruções do arquivo `INSTALL` para gerar o binário `xhpl`. Esse arquivo também indica um comando para testar a execução.
+- Os parâmetros de entrada do benchmark são configurados em um arquivo `HPL.dat`, que é fornecido como exemplo junto com o código fonte. O arquivo que usaremos neste trabalho tem configurações diferentes e está disponível [aqui](HPL.dat).
+- Tanto o `xhpl` como o `HPL.dat` devem estar na mesma pasta. O comando para executar os casos de teste para este trabalho é o mesmo contido no arquivo `INSTALL`. Basta substituir o `HPL.dat` original pelo [HPL.dat](HPL.dat) fornecido.
+- O HPL testa vários casos conforme os parâmetros de entrada e reporta, para cada caso, o desempenho em Gflops (notação científica). Você deve localizar o maior valor obtido entre todos os casos testados. Esse é o resultado que você preencherá no arquivo de entrega.
 
 ## Entrega
 - Você deverá entregar o trabalho no repositório criado após aceite do link no GitHub Classroom.

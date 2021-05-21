@@ -5,6 +5,8 @@ Nome: < preencha seu nome aqui >
 Disciplina: ELC139 - Programação Paralela - UFSM - 2021a  
 URL: http://github.com/andreainfufsm/elc139-2021a  
 
+## Comparativo
+
 | Característica                                            | Computador no TOP500  | Meu computador  |
 | --------------------------------------------------------- | --------------------- | --------------- |
 | Nome/Título                                               |                       |                 |
@@ -17,6 +19,16 @@ URL: http://github.com/andreainfufsm/elc139-2021a
 | Memória total                                             |                       |                 |
 | Tipo(s) de interconexão entre os núcleos/processadores    |                       |                 |
 | Desempenho Linpack                                        |                       |                 |
+
+### Linpack
+
+| Característica | Configuração |
+| -- | -- | 
+| SO | < informe nome e versão> |
+| Virtualização | < informe não/sim e qual > |
+| Compilador C | < informe nome e versão > | 
+| MPI | < informe implementação e versão > | 
+| BLAS | < informe implementação e versão > | 
 
 ### Referências
 - Complete aqui: Autor (nome de pessoa ou instituição). Título. URL.
